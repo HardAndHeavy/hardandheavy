@@ -3,13 +3,13 @@ module.exports = {
     title: `Григорьев`,
     author: `Иван Григорьев`,
     description: `Это интернет-журнал обо всём. Я увлекаюсь программированием и саморазвитием. Люблю музыку, спорт и конечно же свою семью.`,
-    siteUrl: `https://grig.top/`,
+    siteUrl: `https://hardandheavy.ru/`,
     social: {
       vk: `https://vk.com/soloist`,
       github: `https://github.com/HardAndHeavy`,
       mail: `HardAndHeavyMetal@yandex.ru`,
     },
-    git: `https://github.com/HardAndHeavy/ivan.grig`,
+    git: `https://github.com/HardAndHeavy/hardandheavy`,
   },
   plugins: [
     `gatsby-plugin-image`,

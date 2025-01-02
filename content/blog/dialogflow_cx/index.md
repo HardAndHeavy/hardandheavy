@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=EfDE2LBgTog
 
 ### Видеоинструкция
 
-// видеоинструкция
+https://www.youtube.com/watch?v=Vz0F3UdUuu4
 
 ### Необходимые знания
 - Публикация 1С на веб-сервере
