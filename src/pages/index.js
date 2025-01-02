@@ -29,6 +29,7 @@ class BlogIndex extends React.Component {
                       __html: node.frontmatter.description || node.excerpt,
                     }}
                   />
+                  <p style={{ marginTop: rhythm(1 / 4) }}>Читать далее...</p>
                 </Link>
               </p>
             </div>
