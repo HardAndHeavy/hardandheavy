@@ -22,16 +22,20 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small className="secondColor">{node.frontmatter.date}</small>
-              <p style={{ marginTop: rhythm(1 / 4) }}>
+              <p style={{ marginTop: rhythm(1 / 4), marginBottom: rhythm(1 / 4) }}>
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   <div
                     dangerouslySetInnerHTML={{
                       __html: node.frontmatter.description || node.excerpt,
                     }}
                   />
-                  <p style={{ marginTop: rhythm(1 / 4) }}>Читать далее...</p>
                 </Link>
               </p>
+              <h5 style={{ marginTop: rhythm(1 / 2) }}>
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  Читать далее...
+                </Link>
+              </h5>
             </div>
           )
         })}
