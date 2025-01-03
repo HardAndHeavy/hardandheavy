@@ -1,10 +1,8 @@
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faVk, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-
+import { FaTelegram, FaRegEnvelope, FaGithub } from 'react-icons/fa'
+import { SiHabr } from 'react-icons/si'
 import { rhythm } from "../utils/typography"
 
 const SocialLink = props => (
@@ -68,14 +66,17 @@ const Header = () =>
             }}
           >
             <div style={{ float: `right` }}>
-              <SocialLink href={social.vk}>
-                <FontAwesomeIcon icon={faVk} />
+              <SocialLink href={social.telegram}>
+                <FaTelegram />
               </SocialLink>
               <SocialLink href={`mailto:${social.mail}`}>
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FaRegEnvelope />
+              </SocialLink>
+              <SocialLink href={social.habr}>
+                <SiHabr />
               </SocialLink>
               <SocialLink href={social.github}>
-                <FontAwesomeIcon icon={faGithub} />
+                <FaGithub />
               </SocialLink>
             </div>
           </div>
@@ -90,9 +91,10 @@ const headerQuery = graphql`
       siteMetadata {
         author
         social {
-          vk
+          telegram
+	  mail
+	  habr
           github
-          mail
         }
       }
     }
