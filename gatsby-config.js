@@ -1,4 +1,15 @@
+const adapter = require("@dangreaves/gatsby-adapter-aws/adapter")
+
 module.exports = {
+  adapter: adapter.createAdapter({
+    cacheControl: {
+      "/*.js": "IMMUTABLE",
+      "/*.js.map": "IMMUTABLE",
+      "/*.css": "IMMUTABLE",
+      "/page-data/app-data.json": "NO_CACHE",
+      "/~partytown/**": "NO_CACHE",
+    },
+  }),
   siteMetadata: {
     title: `Григорьев`,
     author: `Иван Григорьев`,

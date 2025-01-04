@@ -4,6 +4,7 @@
   "version": "0.2.0",
   "author": "Иван Григорьев <hardandheavymetal@yandex.ru>",
   "dependencies": {
+    "@dangreaves/gatsby-adapter-aws": "2.4.0",
     "react-icons": "^5.4.0",
     "gatsby": "^5.14.1",
     "gatsby-plugin-image": "^3.14.0",
