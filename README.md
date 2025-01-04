@@ -7,6 +7,7 @@ I am interested in programming and self-development. I really love my family and
     <img src="https://cdn.worldvectorlogo.com/logos/linux-tux.svg" alt="linux" width="40" height="40"/>
     <img src="https://cdn.worldvectorlogo.com/logos/vim.svg" alt="vim" width="40" height="40"/>
     <img src="https://cdn.worldvectorlogo.com/logos/devops-2.svg" alt="linux" width="40" height="40"/>
+    <img src="https://cdn.worldvectorlogo.com/logos/ansible.svg" alt="ansible" width="40" height="40"/>
     <img src="https://cdn.worldvectorlogo.com/logos/docker.svg" alt="docker" width="40" height="40"/>
     <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" alt="linux" width="40" height="40"/>
     <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="react" width="40" height="40"/>
