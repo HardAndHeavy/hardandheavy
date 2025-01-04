@@ -8,10 +8,14 @@ import { rhythm } from "../utils/typography"
 class BlogIndex extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
+    const { description } = this.props.data.site.siteMetadata
+    const summarySlug = "/summary/"
 
     return (
       <Layout>
         <Seo title="Все статьи" />
+	<h1 style={{ textAlign: `center` }}><Link style={{ boxShadow: `none` }} to={summarySlug}>HardAndHeavy</Link></h1>
+        <p>{description} <Link to={summarySlug}>Узнать больше обо мне можно здесь.</Link></p>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
@@ -61,6 +65,11 @@ export const pageQuery = graphql`
             description
           }
         }
+      }
+    }
+    site {
+      siteMetadata {
+        description
       }
     }
   }
