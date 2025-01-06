@@ -15,7 +15,7 @@ class BlogIndex extends React.Component {
       <Layout>
         <Seo title="Все статьи" />
 	<h1 style={{ textAlign: `center` }}><Link style={{ boxShadow: `none` }} to={summarySlug}>HardAndHeavy</Link></h1>
-        <p>{description} <Link to={summarySlug}>Узнать больше обо мне можно здесь.</Link></p>
+        <p>{description} <Link to={summarySlug}>Узнать обо мне больше можно здесь.</Link></p>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
