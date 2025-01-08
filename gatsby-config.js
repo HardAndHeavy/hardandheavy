@@ -6,8 +6,12 @@ module.exports = {
       "/*.js": "IMMUTABLE",
       "/*.js.map": "IMMUTABLE",
       "/*.css": "IMMUTABLE",
+      "/static/**": "IMMUTABLE",
+      "/*.html": "NO_CACHE",
+      "/page-data/**": "NO_CACHE",
       "/page-data/app-data.json": "NO_CACHE",
       "/~partytown/**": "NO_CACHE",
+      "/sw.js": "NO_CACHE",
     },
   }),
   siteMetadata: {
