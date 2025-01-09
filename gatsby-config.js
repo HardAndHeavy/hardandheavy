@@ -17,7 +17,7 @@ module.exports = {
   siteMetadata: {
     title: `Григорьев`,
     author: `Иван Григорьев`,
-    description: `Это мой журнал. Я увлекаюсь программированием и саморазвитием. Очень люблю свою семью и создавать что-то новое.`,
+    description: `Блог обо всём, что меня окружает и что меня улучшает.`,
     siteUrl: `https://hardandheavy.ru/`,
     social: {
       telegram: `https://t.me/HardAndHeavy`,
