@@ -20,7 +20,7 @@ module.exports = {
     description: `Блог обо всём, что меня окружает и что меня улучшает.`,
     siteUrl: `https://hardandheavy.ru/`,
     social: {
-      telegram: `https://t.me/HardAndHeavy`,
+      telegram: `https://t.me/HardAndHeavyBlog`,
       mail: `HardAndHeavyMetal@yandex.ru`,
       habr: `https://habr.com/ru/users/Soloist/publications/articles/`,
       github: `https://github.com/HardAndHeavy`,
