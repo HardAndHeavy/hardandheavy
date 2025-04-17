@@ -1,5 +1,5 @@
 # HardAndHeavy
-I am interested in programming and self-development. I really love my family and creating something new. [Telegram channel where I share my thoughts]([https://hardandheavy.ru](https://t.me/HardAndHeavyBlog)).
+I am interested in programming and self-development. I really love my family and creating something new. [Telegram channel where I share my thoughts](https://t.me/HardAndHeavyBlog).
 
 <h3 align="left">Languages and Tools:</h3>
   <p align="left">
