@@ -4,9 +4,9 @@
   "version": "0.2.0",
   "author": "Иван Григорьев <hardandheavymetal@yandex.ru>",
   "dependencies": {
-    "@dangreaves/gatsby-adapter-aws": "2.4.0",
-    "react-icons": "^5.4.0",
-    "gatsby": "^5.14.1",
+    "@dangreaves/gatsby-adapter-aws": "2.6.0",
+    "react-icons": "^5.5.0",
+    "gatsby": "^5.14.5",
     "gatsby-plugin-image": "^3.14.0",
     "gatsby-plugin-google-analytics": "^5.14.0",
     "gatsby-plugin-manifest": "^5.14.0",
@@ -22,7 +22,7 @@
     "gatsby-source-filesystem": "^5.14.0",
     "gatsby-transformer-remark": "^6.14.0",
     "gatsby-transformer-sharp": "^5.14.0",
-    "prismjs": "^1.29.0",
+    "prismjs": "^1.30.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-typography": "^0.16.23",
@@ -32,8 +32,8 @@
     "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0",
-    "prettier": "^3.4.2"
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.6.2"
   },
   "keywords": [
     "gatsby"
