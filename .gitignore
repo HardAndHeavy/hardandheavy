@@ -5,7 +5,6 @@ temp.coffee
 deploy.db
 assets/sass/bower_components/
 .build/
-public/
 .intermediate-representation/
 .cache/
 .aws/
