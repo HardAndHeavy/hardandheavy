@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunk_=self.webpackChunk_||[]).push([[125],{3331:function(e,t,n){n.r(t);var l=n(7387),r=n(6540),u=n(4728),c=n(7528);let o=function(e){function t(){return e.apply(this,arguments)||this}return(0,l.A)(t,e),t.prototype.render=function(){return r.createElement(u.A,null,r.createElement(c.A,{title:"404: Not Found"}),r.createElement("h1",null,"Страница не найдена"),r.createElement("p",null,"Такая ссылка на существует... Это печально."))},t}(r.Component);t.default=o}}]);
-//# sourceMappingURL=component---src-pages-404-js-c78b9977094d78c02cbd.js.map
