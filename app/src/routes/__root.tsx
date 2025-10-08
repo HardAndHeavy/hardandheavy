@@ -1,7 +1,5 @@
 import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 
-import Header from '../components/Header'
-
 import appCss from '../styles.css?url'
 
 export const Route = createRootRoute({
@@ -15,7 +13,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Start Starter',
+        title: 'Хэви',
       },
     ],
     links: [
@@ -36,7 +34,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <HeadContent />
       </head>
       <body>
-        <Header />
         {children}
         <Scripts />
       </body>
