@@ -4,22 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'Dockerfile.prod'
-      - '.github/workflows/deploy.yml'
-      - 'your-app-source/**'
-  workflow_dispatch:
-    # Inputs the workflow accepts.
-    inputs:
-      name:
-        # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
-        # Default value if no value is explicitly provided
-        default: 'World'
-        # Input has to be provided for the workflow to run
-        required: true
-        # The data type of the input
-        type: string
 
 jobs:
   build:
@@ -45,4 +29,4 @@ jobs:
           context: .
           file: ./Dockerfile.dev
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:latest
+          tags: ghcr.io/${{ github.repository_owner.toLowerCase() }}/${{ github.event.repository.name }}:latest
