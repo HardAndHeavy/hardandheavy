@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./Dockerfile.dev
           push: true
-          tags: ghcr.io/${{ github.repository_owner.toLowerCase() }}/${{ github.event.repository.name }}:latest
+          tags: ghcr.io/${{ fromJSON('"' + github.repository_owner + '"').toLowerCase() }}/${{ github.event.repository.name }}:latest
