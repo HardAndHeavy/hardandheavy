@@ -30,7 +30,7 @@ const articles = [
 
 export function Articles() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 px-4 bg-white">
       <div className="container mx-auto max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -39,10 +39,10 @@ export function Articles() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+          <h2 className="heavy-h2">
             Делюсь знаниями
           </h2>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+          <p className="heavy-p">
             Пишу о том, что работает на практике
           </p>
         </motion.div>
@@ -68,7 +68,7 @@ export function Articles() {
                         {article.platform}
                       </span>
                     </div>
-                    <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                    <h3 className="text-lx font-semibold text-slate-900 mb-2">
                       {article.title}
                     </h3>
                     <div className="flex items-center gap-4 text-sm text-slate-600">

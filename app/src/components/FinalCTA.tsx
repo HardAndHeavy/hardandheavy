@@ -4,7 +4,7 @@ import { MdArrowForward } from 'react-icons/md'
 
 export function FinalCTA() {
   return (
-    <section className="py-20 pb-10 bg-gradient-to-br heavy-gradient text-white">
+    <section className="py-30 pb-20 px-4 bg-gradient-to-br heavy-gradient text-white">
       <div className="container mx-auto max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -30,13 +30,13 @@ export function FinalCTA() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <FaTelegram size="1.5em" className="text-rose-300" />
+                <FaTelegram size="1.2em" className="sm:size-1.5em text-rose-300" />
                 <span className="heavy-text-gradient heavy-text-gradient-hover">
                   Перейти на канал Хэви
                 </span>
                 <MdArrowForward
-                  size="1.2em"
-                  className="group-hover:translate-x-2 text-rose-300"
+                  size="1.1em"
+                  className="sm:size-1.2em group-hover:translate-x-2 transition-transform text-rose-300"
                 />
               </motion.a>
               <p className="text-rose-200 text-sm">

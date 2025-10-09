@@ -56,4 +56,20 @@
       background-position: 0% 50%;
     }
   }
+
+  .heavy-h1 {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-slate-900 mb-4 sm:mb-6 leading-tight;
+  }
+
+  .heavy-p1 {
+    @apply text-lg sm:text-xl md:text-2xl text-slate-600 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed;
+  }
+
+  .heavy-h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4 leading-tight;
+  }
+
+  .heavy-p {
+    @apply text-lg sm:text-xl text-slate-600 mb-6 max-w-3xl mx-auto leading-relaxed;
+  }
 }

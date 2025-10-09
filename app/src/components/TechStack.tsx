@@ -18,7 +18,7 @@ const techStack = [
 
 export function TechStack() {
   return (
-    <section id="techStack" className="py-20 bg-white">
+    <section id="techStack" className="py-20 px-4 bg-white">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -27,10 +27,10 @@ export function TechStack() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+          <h2 className="heavy-h2">
             Мой технологический стек
           </h2>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+          <p className="heavy-p">
             Инструменты, которые помогают мне создавать будущее
           </p>
         </motion.div>
