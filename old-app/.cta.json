@@ -1,18 +1,15 @@
 {
-  "projectName": "app",
+  "projectName": ".",
   "mode": "file-router",
   "typescript": true,
   "tailwind": true,
   "packageManager": "npm",
   "git": false,
-  "install": true,
   "addOnOptions": {},
-  "includeExamples": true,
-  "envVarValues": {},
-  "routerOnly": false,
   "version": 1,
-  "framework": "react",
+  "framework": "react-cra",
   "chosenAddOns": [
+    "start",
     "nitro"
   ]
 }

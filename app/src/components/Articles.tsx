@@ -8,21 +8,21 @@ const articles = [
   {
     title: 'Я упаковал 10 веб-фреймворков в Docker, чтобы вы могли запустить любой из них одной командой',
     platform: 'Habr',
-    views: '14K',
-    rating: 11,
+    views: '30K',
+    rating: 12,
     link: 'https://habr.com/ru/articles/951148/'
   },
   {
     title: 'Общение с LLM-моделью по собственной базе знаний в Obsidian',
     platform: 'Habr',
-    views: '12K',
-    rating: 12,
+    views: '25K',
+    rating: 10,
     link: 'https://habr.com/ru/articles/901562/'
   },
   {
     title: 'Как мы с сыном прошли путь от «Купи слона» до собственного навыка для Алисы',
     platform: 'vc.ru',
-    views: '235',
+    views: '6К',
     rating: 4,
     link: 'https://vc.ru/life/2138897-put-ot-igry-kupi-slona-k-navyku-dlya-alisy'
   }

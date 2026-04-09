@@ -1,18 +1,16 @@
 import { defineConfig } from 'vite'
-import { devtools } from '@tanstack/devtools-vite'
-import tsconfigPaths from 'vite-tsconfig-paths'
-
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
-
 import viteReact from '@vitejs/plugin-react'
+import viteTsConfigPaths from 'vite-tsconfig-paths'
 import tailwindcss from '@tailwindcss/vite'
-import { nitro } from 'nitro/vite'
+import { nitroV2Plugin } from '@tanstack/nitro-v2-vite-plugin'
 
 const config = defineConfig({
   plugins: [
-    devtools(),
-    nitro({ preset: 'bun' }),
-    tsconfigPaths({ projects: ['./tsconfig.json'] }),
+    nitroV2Plugin({ preset: 'bun' }),
+    viteTsConfigPaths({
+      projects: ['./tsconfig.json'],
+    }),
     tailwindcss(),
     tanstackStart(),
     viteReact(),

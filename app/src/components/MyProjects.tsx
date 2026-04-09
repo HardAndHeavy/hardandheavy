@@ -5,13 +5,13 @@ const projects = [
   {
     name: 'devbox',
     description: '12 веб-фреймворков на разных языках в Docker',
-    stars: 32,
+    stars: 36,
     benefit: 'Старт проекта за 5 минут'
   },
   {
     name: 'comfyui-rocm-docker',
     description: 'Генерация изображений на AMD GPU',
-    stars: 21,
+    stars: 34,
     benefit: 'Профессиональный инструмент для генерации изображений'
   },
   {
