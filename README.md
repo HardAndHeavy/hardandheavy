@@ -13,7 +13,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=flat&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-707070?style=flat&logo=ollama&logoColor=white)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-707070?style=flat&logo=github&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-ffcc00?style=flat&logo=huggingface&logoColor=black)
 
 🌐 **Explore More**: I write about what actually works. Read my practical insights and updates at [hardandheavy.ru](https://hardandheavy.ru/).
