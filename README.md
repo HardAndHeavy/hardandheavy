@@ -4,7 +4,6 @@
 
 **Mission**: Building a digital autarky — a self-sufficient foundation you fully control,
 where you can launch any product without asking anyone's permission.
-Live and in public, every Thursday.
 
 > *"Freedom begins where dependency ends."*
 
