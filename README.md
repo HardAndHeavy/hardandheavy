@@ -1,6 +1,6 @@
 # HardAndHeavy
 
-**I'm Grig — an architect who builds independent systems: in music, in life, in code.**
+**I'm HardAndHeavy — an architect who builds independent systems: in music, in life, in code.**
 
 **Mission**: Building a digital autarky — a self-sufficient foundation you fully control,
 where you can launch any product without asking anyone's permission.
