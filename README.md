@@ -7,19 +7,6 @@ where you can launch any product without asking anyone's permission.
 
 > *"Freedom begins where dependency ends."*
 
-**What I do**:
-- 🏗️ **Vozl** — a self-hosted foundation: own mail server, mesh network, DNS, SSO —
-  all built on open source, all documented, all public
-- 🤖 **AI on AMD** — pioneered running AI tooling on AMD GPUs back when Nvidia ruled the field
-- 🔧 **Open source** — my patches are merged into LLaMA-Factory, private-gpt, Stalwart,
-  bulwarkmail and more. I don't just take — I give back
-- ✍️ **Writing** — no retold tutorials. I walk the path myself, hit the walls, share the results
-
-**Featured projects**:
-- [devbox](https://github.com/HardAndHeavy/devbox) — 12 web frameworks in Docker: start any project in 5 minutes
-- [comfyui-rocm-docker](https://github.com/HardAndHeavy/comfyui-rocm-docker) — professional AI image generation on AMD GPUs
-- [dotfiles](https://github.com/HardAndHeavy/dotfiles) — instant Linux environment deployment
-
 **Stack**:  
 ![Linux](https://img.shields.io/badge/Linux-333333?style=flat&logo=linux&logoColor=white)
 ![Vim](https://img.shields.io/badge/Vim-019733?style=flat&logo=vim&logoColor=white)
