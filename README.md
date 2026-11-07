@@ -1,6 +1,6 @@
 # HardAndHeavy
 
-**I'm HardAndHeavy — an architect who builds independent systems: in music, in life, in code.**
+I'm HardAndHeavy — an architect who builds independent systems: in music, in life, in code.
 
 **Mission**: Building a digital autarky — a self-sufficient foundation you fully control,
 where you can launch any product without asking anyone's permission.
@@ -21,4 +21,4 @@ where you can launch any product without asking anyone's permission.
 
 A stack is not a cage — it's a toolbox. I dive into any technology easily.
 
-🌐 **Explore more**: [иван.григ.рф](https://иван.григ.рф) — who I am, my path and my manifest
+🌐 **Explore more**: [иван.григ.рф](https://иван.григ.рф)
